@@ -1,0 +1,35 @@
+@media (max-width: 767px) {
+  .pd0-m {
+    padding: 0 !important;
+  }
+  .modal-content {
+    /* background-color: #353535 !important; */
+    background-image: url(../images/m-pop.png) !important;
+    background-attachment: inherit;
+    background-position: right;
+    padding: 20px 0px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 0px;
+  }
+  .modal-body .close span {
+    height: 30px;
+    width: 100%;
+    display: block;
+    font-size: 18px;
+    /* top: -36px; */
+    margin-top: 32px;
+  }
+  .modal-body .close {
+    float: none;
+    position: initial;
+    left: 7px;
+    bottom: 0px;
+    color: #3f8b1c;
+    opacity: 1;
+    margin: 0 auto;
+    text-align: center;
+    outline: none;
+    font-size: 6px !important;
+  }
+}
